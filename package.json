@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/oxyblade-1/pong/issues"
   },
-  "homepage": "https://github.com/oxyblade-1/pong#readme"
+  "homepage": "https://github.com/oxyblade-1/pong#readme",
+  "dependencies": {
+    "electron.js": "^0.0.1"
+  }
 }
