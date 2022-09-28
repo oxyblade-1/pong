@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#bar {
+    width: 20px;
+    height: 150px;
+    background-color: #ccc;
+    position: relative;
+    display: block;
+    margin-top: 0;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: #f6b93b;
+    position: relative;
+    display: block;
+}

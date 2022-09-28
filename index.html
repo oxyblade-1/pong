@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div id="bar"></div>
+    <!-- code -->
+    <div id="ball"></div>
+    <!-- code -->
+
+    <p>[Press any key]</p>
+    <!-- <div id="bar"></div> -->
+    <script>
+        const bar = document.querySelector("#bar")
+
+        // window.addEventListener('keydown', function (e) {
+        //     document.querySelector('p').innerHTML = `You pressed ${e.key}`;
+        // }, false);
+
+        document.onkeypress = function (e) {
+            e = e || window.event;
+            // use e.keyCode
+        };
+
+    </script>
+</body>
+</html>
